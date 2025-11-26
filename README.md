@@ -71,7 +71,17 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 ## 🐍 Commits  
 
-<img src="https://github.com/SEUUSUARIO/SEUUSUARIO/blob/output/github-contribution-grid-snake.svg" />
+<div align="center">
+  <img <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/LucasBedaa/LucasBedaa/raw/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/LucasBedaa/LucasBedaa/raw/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://github.com/LucasBedaa/LucasBedaa/raw/output/github-contribution-grid-snake.svg">
+  </picture>
+</div> 
+</div>
+
+<br>
 
 ---
 
