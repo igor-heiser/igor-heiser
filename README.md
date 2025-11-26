@@ -1,4 +1,3 @@
-<!-- Banner / Apresentação -->
 <h1 align="center">Olá, eu me chamo Igor. Muito prazer!</h1>
 <h3 align="center">Bem-vindo ao meu perfil no GitHub</h3>
 
@@ -19,49 +18,20 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 <p align="left">
 
-<!-- Java -->
 <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white"/>
-
-<!-- C -->
 <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
-
-<!-- DevC++ (não possui logo oficial, usei alternativa) -->
 <img src="https://img.shields.io/badge/DevC++-0B2C4A?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-
-<!-- MySQL -->
 <img src="https://img.shields.io/badge/MySQL-00618A?style=for-the-badge&logo=mysql&logoColor=white"/>
-
-<!-- MySQL Workbench -->
 <img src="https://img.shields.io/badge/MySQL_Workbench-00618A?style=for-the-badge&logo=mysql&logoColor=white"/>
-
-<!-- GitHub -->
 <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white"/>
-
-<!-- Linux -->
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-
-<!-- Eclipse -->
 <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white"/>
-
-<!-- Visual Studio -->
 <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white"/>
-
-<!-- VS Code -->
 <img src="https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-
-<!-- Trello -->
 <img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white"/>
-
-<!-- VirtualBox -->
 <img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white"/>
-
-<!-- Arduino Cloud -->
 <img src="https://img.shields.io/badge/Arduino_Cloud-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
-
-<!-- Cisco Packet Tracer (não tem logo oficial → usei "Cisco") -->
 <img src="https://img.shields.io/badge/Cisco_Packet_Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white"/>
-
-<!-- GDevelop -->
 <img src="https://img.shields.io/badge/GDevelop-0099FF?style=for-the-badge&logo=gdevelop&logoColor=white"/>
 
 </p>
@@ -71,13 +41,12 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 ## 📊 Estatísticas do GitHub  
 
 <div align="center">
-  
+
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=igor-heiser&bg_color=0d1117&color=DCE8FC&line=1E90FF&point=1E90FF&area=true&area_color=00264D&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ![](https://github-readme-stats.vercel.app/api?username=igor-heiser&theme=blue_navy&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=igor-heiser&theme=blue_navy&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=igor-heiser&theme=blue_navy&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
 
 [![](https://visitcount.itsvg.in/api?id=igor-heiser&icon=0&color=0)](https://visitcount.itsvg.in)
 
@@ -91,13 +60,11 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 ---
 
-
 ## 📬 Contato  
 
 <div align="left">
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" width="22px"> **Email:** igorheiser210@gmail.com  
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="22px"> **Instagram:** https://instagram.com/heiser_igor  
 
 </div>
