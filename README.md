@@ -3,7 +3,7 @@
 <h3 align="center">Bem-vindo ao meu perfil no GitHub</h3>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00bfff&height=120&section=header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0077ff&height=120&section=header" />
 </p>
 
 ---
@@ -102,5 +102,6 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00bfff&height=120&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0077ff&height=120&section=footer" />
 </p>
+
