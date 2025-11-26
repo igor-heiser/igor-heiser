@@ -1,5 +1,5 @@
 <!-- Banner / Apresentação -->
-<h1 align="center">🥶 Olá, eu me chamo Igor. Muito prazer! 🥶</h1>
+<h1 align="center">Olá, eu me chamo Igor. Muito prazer!</h1>
 <h3 align="center">Bem-vindo ao meu perfil no GitHub</h3>
 
 <p align="center">
@@ -68,15 +68,18 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 ---
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=igor-heiser&bg_color=0d1117&color=DCE8FC&line=1E90FF&point=1E90FF&area=true&area_color=00264D&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
----
-
 ## 📊 Estatísticas do GitHub  
 
 <div align="center">
+  
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=igor-heiser&bg_color=0d1117&color=DCE8FC&line=1E90FF&point=1E90FF&area=true&area_color=00264D&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-<img height="170em" src="https://github-readme-streak-stats.herokuapp.com/?user=SEUUSUARIO&theme=tokyonight" />
+![](https://github-readme-stats.vercel.app/api?username=igor-heiser&theme=blue_navy&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=igor-heiser&theme=blue_navy&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=igor-heiser&theme=blue_navy&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
+
+[![](https://visitcount.itsvg.in/api?id=igor-heiser&icon=0&color=0)](https://visitcount.itsvg.in)
 
 </div>
 
@@ -91,9 +94,9 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 ## 📬 Contato  
 
-<div align="center">
+<div align="left">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" width="22px"> **Email:** igorheiser210@exemplo.com  
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" width="22px"> **Email:** igorheiser210@gmail.com  
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="22px"> **Instagram:** https://instagram.com/heiser_igor  
 
