@@ -1,5 +1,5 @@
 <h1 align="center">Olá, eu me chamo Igor. Muito prazer!</h1>
-<h3 align="center">Bem-vindo ao meu perfil no GitHub</h3>
+<h3 align="center">Bem-vindo(a) ao meu perfil no GitHub</h3>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0077ff&height=120&section=header" />
