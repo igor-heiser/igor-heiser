@@ -42,11 +42,14 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 <div align="center">
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=igor-heiser&bg_color=0d1117&color=DCE8FC&line=1E90FF&point=1E90FF&area=true&area_color=00264D&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=igor-heiser&bg_color=0d1117&color=ffffff&line=0077ff&point=66cfff&area=true&area_color=0077ff&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-![](https://github-readme-stats.vercel.app/api?username=igor-heiser&theme=blue_navy&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=igor-heiser&theme=blue_navy&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=igor-heiser&theme=blue_navy&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![](https://github-readme-stats.vercel.app/api?username=igor-heiser&hide_border=false&include_all_commits=false&count_private=false&title_color=0077ff&text_color=ffffff&icon_color=0077ff&border_color=0077ff&bg_color=0d1117)
+
+![](https://nirzak-streak-stats.vercel.app/?user=igor-heiser&hide_border=false&background=0d1117&border=0077ff&ring=0077ff&fire=0077ff&currStreakLabel=0077ff&currStreakNum=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff)
+
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=igor-heiser&layout=compact&hide_border=false&include_all_commits=false&count_private=false&title_color=0077ff&text_color=ffffff&icon_color=0077ff&border_color=0077ff&bg_color=0d1117)
 
 [![](https://visitcount.itsvg.in/api?id=igor-heiser&icon=0&color=0)](https://visitcount.itsvg.in)
 
