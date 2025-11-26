@@ -16,7 +16,7 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 ## 🚀 Tecnologias que uso / conheço  
 
-<p align="left">
+<p align="center">
 
 <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white"/>
 <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
@@ -81,12 +81,18 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 ---
 
-## 📬 Contato  
+##  📬 Contato  
 
 <div align="left">
+  <a href="https://www.instagram.com/imartins.26">
+    <img src="https://img.shields.io/badge/Instagram-ff0064?style=for-the-badge&logo=instagram&logoColor=white">
+  </a>
+  <a href="mailto:arthurpagliarinimartins@gmail.com">
+    <img src="https://img.shields.io/badge/Email-0078ff?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+</div>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" width="22px"> **Email:** igorheiser210@gmail.com  
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="22px"> **Instagram:** https://instagram.com/heiser_igor  
+<div align="left">
 
 </div>
 
