@@ -38,18 +38,30 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 ---
 
-## 📊 Estatísticas do GitHub  
+## 📊 Estatísticas do GitHub
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0;">
+  <tr>
+    <td style="border:0; padding:0;">
+      <img
+        src="https://github-readme-stats.vercel.app/api?username=igor-heiser&hide_border=false&include_all_commits=false&count_private=false&title_color=0077ff&text_color=ffffff&icon_color=0077ff&border_color=0077ff&bg_color=0d1117"
+        style="display:block; border:0; padding:0;"
+      />
+    </td>
+    <td style="border:0; padding:0;">
+      <img
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=igor-heiser&layout=compact&hide_border=false&include_all_commits=false&count_private=false&title_color=0077ff&text_color=ffffff&icon_color=0077ff&border_color=0077ff&bg_color=0d1117"
+        style="display:block; border:0; padding:0;"
+      />
+    </td>
+  </tr>
+</table>
 
 <div align="center">
 
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=igor-heiser&bg_color=0d1117&color=ffffff&line=0077ff&point=66cfff&area=true&area_color=0077ff&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-![](https://github-readme-stats.vercel.app/api?username=igor-heiser&hide_border=false&include_all_commits=false&count_private=false&title_color=0077ff&text_color=ffffff&icon_color=0077ff&border_color=0077ff&bg_color=0d1117)
-
-![](https://nirzak-streak-stats.vercel.app/?user=igor-heiser&hide_border=false&background=0d1117&border=0077ff&ring=0077ff&fire=0077ff&currStreakLabel=0077ff&currStreakNum=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff)
-
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=igor-heiser&layout=compact&hide_border=false&include_all_commits=false&count_private=false&title_color=0077ff&text_color=ffffff&icon_color=0077ff&border_color=0077ff&bg_color=0d1117)
+<img src="https://nirzak-streak-stats.vercel.app/?user=igor-heiser&hide_border=false&background=0d1117&border=0077ff&ring=0077ff&fire=0077ff&currStreakLabel=0077ff&currStreakNum=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff" style="border:0; display:block;" />
 
 [![](https://visitcount.itsvg.in/api?id=igor-heiser&icon=0&color=0)](https://visitcount.itsvg.in)
 
