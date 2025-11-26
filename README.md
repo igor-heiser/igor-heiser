@@ -67,10 +67,6 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 </div>
 
----
-
-## 🐍 Commits  
-
 <div align="center">
   <img <div align="center">
   <picture>
