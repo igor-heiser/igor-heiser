@@ -82,10 +82,10 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 ##  📬 Contato  
 
 <div align="left">
-  <a href="https://www.instagram.com/imartins.26">
+  <a href="https://www.instagram.com/heiser_igor">
     <img src="https://img.shields.io/badge/Instagram-ff0064?style=for-the-badge&logo=instagram&logoColor=white">
   </a>
-  <a href="mailto:arthurpagliarinimartins@gmail.com">
+  <a href="mailto:igor_heiser210@gmail.com">
     <img src="https://img.shields.io/badge/Email-0078ff?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
 </div>
