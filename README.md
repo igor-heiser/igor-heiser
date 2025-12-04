@@ -9,7 +9,7 @@
 
 ## 🧑‍💻 Sobre mim  
 
-Sou um desenvolvedor em constante evolução, sempre aprendendo novas ferramentas e criando projetos que me desafiam.  
+Sou um desenvolvedor em constante evolução, sempre buscando aprender novas ferramentas e criar projetos que me desafiam.  
 Gosto de explorar diferentes áreas da tecnologia e transformar ideias em código.  
 
 ---
