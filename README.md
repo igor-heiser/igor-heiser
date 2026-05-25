@@ -18,7 +18,8 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-0077ff?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/IntelliJ_IDEA-0077ff?style=for-the-badge&logo=intellijidea&logoColor=white"/>
 <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
 <img src="https://img.shields.io/badge/DevC++-0B2C4A?style=for-the-badge&logo=cplusplus&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-00618A?style=for-the-badge&logo=mysql&logoColor=white"/>
@@ -40,48 +41,21 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 ## 📊 Estatísticas do GitHub
 
-<table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0;">
-  <tr>
-    <td style="border:0; padding:0;">
-      <img
-        src="https://github-readme-stats.vercel.app/api?username=igor-heiser&hide_border=false&include_all_commits=false&count_private=false&title_color=0077ff&text_color=ffffff&icon_color=0077ff&border_color=0077ff&bg_color=0d1117"
-        style="display:block; border:0; padding:0;"
-      />
-    </td>
-    <td style="border:0; padding:0;">
-      <img
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=igor-heiser&layout=compact&hide_border=false&include_all_commits=false&count_private=false&title_color=0077ff&text_color=ffffff&icon_color=0077ff&border_color=0077ff&bg_color=0d1117"
-        style="display:block; border:0; padding:0;"
-      />
-    </td>
-  </tr>
-</table>
-
 <div align="center">
 
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=igor-heiser&bg_color=0d1117&color=ffffff&line=0077ff&point=66cfff&area=true&area_color=0077ff&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-<img src="https://nirzak-streak-stats.vercel.app/?user=igor-heiser&hide_border=false&background=0d1117&border=0077ff&ring=0077ff&fire=0077ff&currStreakLabel=0077ff&currStreakNum=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff" style="border:0; display:block;" />
-
 [![](https://visitcount.itsvg.in/api?id=igor-heiser&icon=0&color=0)](https://visitcount.itsvg.in)
 
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/LucasBedaa/LucasBedaa/raw/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/LucasBedaa/LucasBedaa/raw/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://github.com/LucasBedaa/LucasBedaa/raw/output/github-contribution-grid-snake.svg">
-  </picture>
 </div>
 
 <br>
 
 ---
 
-##  📬 Contato  
+## 📬 Entre em contato comigo por:  
 
-<div align="left">
+<div align="center">
   <a href="https://www.instagram.com/heiser_igor">
     <img src="https://img.shields.io/badge/Instagram-ff0064?style=for-the-badge&logo=instagram&logoColor=white">
   </a>
