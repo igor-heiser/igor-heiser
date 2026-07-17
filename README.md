@@ -1,9 +1,9 @@
-<h1 align="center">Olá, eu me chamo Igor. Muito prazer!</h1>
-<h3 align="center">Bem-vindo(a) ao meu perfil no GitHub!</h3>
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0077ff&height=120&section=header" />
 </p>
+
+<h1 align="center">Olá, seja bem-vindo(a) ao meu perfil no GitHub.</h1>
+<h3 align="center">Me chamo Igor Negherbon Heiser. Muito prazer!</h3>
 
 ---
 
@@ -46,8 +46,6 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 </div>
 
-<br>
-
 ---
 
 ## Entre em contato comigo por:  
@@ -60,8 +58,6 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
     <img src="https://img.shields.io/badge/Email-0078ff?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
 </div>
-
----
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0077ff&height=120&section=footer" />
