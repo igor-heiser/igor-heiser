@@ -7,14 +7,14 @@
 
 ---
 
-## 🧑‍💻 Sobre mim  
+## Sobre mim  
 
 Sou um desenvolvedor em constante evolução, sempre buscando aprender novas ferramentas e criar projetos que me desafiam.  
 Gosto de explorar diferentes áreas da tecnologia e transformar ideias em código.  
 
 ---
 
-## 🚀 Tecnologias que uso / conheço  
+## Tecnologias que uso / conheço  
 
 <p align="center">
 
@@ -36,7 +36,7 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 ---
 
-## 📊 Estatísticas do GitHub
+## Estatísticas do GitHub
 
 <div align="center">
 
@@ -50,7 +50,7 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 ---
 
-## 📬 Entre em contato comigo por:  
+## Entre em contato comigo por:  
 
 <div align="center">
   <a href="https://www.instagram.com/heiser_igor">
