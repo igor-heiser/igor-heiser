@@ -14,23 +14,33 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 ---
 
-## Tecnologias que uso / conheço  
+## Tecnologias que uso  
 
-<p align="center">
+<div data-importer="techs" align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="30" alt="canva logo"  />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30" alt="github logo"  />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="30" alt="javascript logo"  />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="30" alt="pycharm logo"  />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="30" alt="intellij logo"  />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css logo"  />
+</div>
 
-<img src="https://img.shields.io/badge/Java-0077ff?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/IntelliJ_IDEA-0077ff?style=for-the-badge&logo=intellijidea&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL_Workbench-00618A?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-<img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white"/>
-<img src="https://img.shields.io/badge/Arduino_Cloud-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
-<img src="https://img.shields.io/badge/Cisco_Packet_Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white"/>
-<img src="https://img.shields.io/badge/GDevelop-0099FF?style=for-the-badge&logo=gdevelop&logoColor=white"/>
-<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+###
 
 </p>
 
@@ -50,14 +60,12 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 ## Entre em contato comigo por:  
 
-<div align="center">
-  <a href="https://www.instagram.com/heiser_igor">
-    <img src="https://img.shields.io/badge/Instagram-ff0064?style=for-the-badge&logo=instagram&logoColor=white">
-  </a>
-  <a href="mailto:igor_heiser210@gmail.com">
-    <img src="https://img.shields.io/badge/Email-0078ff?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
+<div data-importer="socials" align="center">
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="40" height="30" alt="gmail logo"  />
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="40" height="30" alt="instagram logo"  />
 </div>
+
+###
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0077ff&height=120&section=footer" />
