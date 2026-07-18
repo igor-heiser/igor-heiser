@@ -3,7 +3,6 @@
 </p>
 
 <h1 align="center">Olá, seja bem-vindo(a) ao meu perfil no GitHub.</h1>
-<h3 align="center">Me chamo Igor Negherbon Heiser. Muito prazer!</h3>
 
 ---
 
