@@ -2,18 +2,18 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0077ff&height=120&section=header" />
 </p>
 
-<h1 align="center">Olá, seja bem-vindo(a) ao meu perfil no GitHub.</h1>
+<h1 align="center">Hello, welcome to my GitHub profile!</h1>
 
 ---
 
-## Sobre mim  
+## About Me
 
-Sou um desenvolvedor em constante evolução, sempre buscando aprender novas ferramentas e criar projetos que me desafiam.  
-Gosto de explorar diferentes áreas da tecnologia e transformar ideias em código.  
+I'm a developer who is constantly growing, always looking to learn new tools and build projects that challenge me.  
+I enjoy exploring different areas of technology and turning ideas into code.
 
 ---
 
-## Tecnologias que uso  
+## Technologies I Use
 
 <div data-importer="techs" align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="30" alt="canva logo"  />
@@ -45,7 +45,7 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 ---
 
-## Estatísticas do GitHub
+## GitHub Statistics
 
 <div align="center">
 
@@ -57,7 +57,7 @@ Gosto de explorar diferentes áreas da tecnologia e transformar ideias em códig
 
 ---
 
-## Entre em contato comigo por:  
+## Get in Touch
 
 <div data-importer="socials" align="center">
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="40" height="30" alt="gmail logo"  />
