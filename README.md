@@ -44,16 +44,21 @@ I enjoy exploring different areas of technology and turning ideas into code.
 </p>
 
 ---
-
 ## GitHub Statistics
-
 <div align="center">
-
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=igor-heiser&bg_color=0d1117&color=ffffff&line=0077ff&point=66cfff&area=true&area_color=0077ff&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-[![](https://visitcount.itsvg.in/api?id=igor-heiser&icon=0&color=0)](https://visitcount.itsvg.in)
-
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github-readme-stats-gamma-tan-86.vercel.app/api?username=igor-heiser&hide_border=true&include_all_commits=false&count_private=false&title_color=0077ff&text_color=0077ff&icon_color=0077ff&bg_color=0D1117" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats-gamma-tan-86.vercel.app/api/top-langs/?username=igor-heiser&layout=compact&hide_border=true&include_all_commits=false&count_private=false&title_color=0077ff&text_color=FFFFFF&icon_color=0077ff&border_color=FFFFFF&bg_color=0d1117" />
+    </td>
+  </tr>
+</table>
 </div>
+
+###
 
 ---
 
