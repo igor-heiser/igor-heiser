@@ -11,6 +11,8 @@
 I'm a developer who is constantly growing, always looking to learn new tools and build projects that challenge me.  
 I enjoy exploring different areas of technology and turning ideas into code.
 
+I study at the SESI/SENAI high school and at the CentroWEG.
+
 ---
 
 ## Technologies I Use
