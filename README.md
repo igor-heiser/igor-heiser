@@ -3,12 +3,8 @@
 </p>
 
 <p align="center">
-  <strong>
-    <big><big><big><big><big><big>Hello, welcome to my GitHub profile!</big></big></big></big></big></big>
-  </strong>
+  <img src="./assets/welcome-cropped.png" width="650" alt="Hello, welcome to my GitHub profile!" />
 </p>
-
-<br>
 
 <p align="center">
   <img src="./assets/transferir.svg" width="100%" height="4" alt="" />
