@@ -11,10 +11,7 @@
 <br>
 
 <p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=rect&color=0:001f5c,25:003d99,50:0077ff,75:0055cc,100:001f5c&height=4"
-    width="100%"
-  />
+  <img src="./assets/blue-line.svg" width="100%" alt="" />
 </p>
 
 ## About Me
