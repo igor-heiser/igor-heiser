@@ -12,69 +12,142 @@
 
 ## About Me
 
-I'm a developer who is constantly growing, always looking to learn new tools and build projects that challenge me.  
-I enjoy exploring different areas of technology and turning ideas into code.
+I am currently attending high school at SENAI and taking a technical course in Web Informatics at CentroWEG. I'm a developer who is constantly growing, always looking to learn new tools, explore different areas of technology, and build projects that challenge me.  
+I enjoy turning ideas into code and continuously improving my skills.
 
 ## Technologies I Use
 
-<div align="center">
+<h3 align="center">Front-end</h3>
 
-  <h3>Front-end</h3>
+<table align="center">
+  <tr>
+    <td align="center" width="75" height="65">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" alt="HTML5" />
+    </td>
+    <td align="center" width="75" height="65">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" alt="CSS3" />
+    </td>
+    <td align="center" width="75" height="65">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="40" alt="JavaScript" />
+    </td>
+    <td align="center" width="75" height="65">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="40" alt="Figma" />
+    </td>
+  </tr>
+</table>
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="HTML5" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="CSS3" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="30" alt="JavaScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" height="30" alt="Figma" />
+<h3 align="center">Back-end</h3>
 
-  <h3>Back-end</h3>
+<table align="center">
+  <tr>
+    <td align="center" width="75" height="65">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" alt="Java" />
+    </td>
+    <td align="center" width="75" height="65">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" alt="Python" />
+    </td>
+  </tr>
+</table>
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="Java" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="Python" />
+<h3 align="center">Databases</h3>
 
-  <h3>Databases</h3>
+<table align="center">
+  <tr>
+    <td align="center" width="75" height="65">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" alt="MySQL" />
+    </td>
+  </tr>
+</table>
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="MySQL" />
+<h3 align="center">Other Technologies</h3>
 
-  <h3>Other Technologies</h3>
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="30" alt="Canva" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" height="30" alt="Notion" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30" alt="GitHub" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eclipse/eclipse-original.svg" height="30" alt="Eclipse" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="30" alt="PyCharm" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="VS Code" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="30" alt="IntelliJ IDEA" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" height="30" alt="Docker" />
-
-</div>
+<table align="center">
+  <tr>
+    <td align="center" width="75" height="65">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" width="40" alt="Canva" />
+    </td>
+    <td align="center" width="75" height="65">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" width="40" alt="Notion" />
+    </td>
+    <td align="center" width="75" height="65">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" alt="GitHub" />
+    </td>
+    <td align="center" width="75" height="65">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eclipse/eclipse-original.svg" width="40" alt="Eclipse" />
+    </td>
+    <td align="center" width="75" height="65">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" width="40" alt="PyCharm" />
+    </td>
+    <td align="center" width="75" height="65">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" alt="VS Code" />
+    </td>
+    <td align="center" width="75" height="65">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="40" alt="IntelliJ IDEA" />
+    </td>
+    <td align="center" width="75" height="65">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="40" alt="Docker" />
+    </td>
+  </tr>
+</table>
 
 <br>
 
 ## GitHub Statistics
 
-<p align="center">
-  <img
-    height="170"
-    src="https://github-stats-extended.vercel.app/api?username=igor-heiser&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=0077ff&text_color=ffffff&icon_color=0077ff&bg_color=0d1117"
-    alt="Igor's GitHub Stats"
-  />
-  <img
-    height="170"
-    src="https://github-stats-extended.vercel.app/api/top-langs/?username=igor-heiser&layout=compact&hide_border=true&langs_count=6&title_color=0077ff&text_color=ffffff&bg_color=0d1117"
-    alt="Igor's Most Used Languages"
-  />
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img
+        height="170"
+        src="https://github-stats-extended.vercel.app/api?username=igor-heiser&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=0077ff&text_color=ffffff&icon_color=0077ff&bg_color=0d1117"
+        alt="Igor's GitHub Stats"
+      />
+    </td>
+    <td align="center">
+      <img
+        height="170"
+        src="https://github-stats-extended.vercel.app/api/top-langs/?username=igor-heiser&layout=compact&hide_border=true&langs_count=6&title_color=0077ff&text_color=ffffff&bg_color=0d1117"
+        alt="Igor's Most Used Languages"
+      />
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=igor-heiser&theme=github-dark-blue&hide_border=true&background=0D1117&ring=0077FF&fire=0077FF&currStreakLabel=0077FF"
-    alt="Igor's GitHub Streak"
-  />
-</p>
+<br>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img
+        src="https://streak-stats.demolab.com?user=igor-heiser&theme=github-dark-blue&hide_border=true&background=0D1117&ring=0077FF&fire=0077FF&currStreakLabel=0077FF"
+        alt="Igor's GitHub Streak"
+      />
+    </td>
+  </tr>
+</table>
+
+<br>
 
 ## Get in Touch
 
-<p align="center"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="40" height="30" alt="Gmail" /> <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="40" height="30" alt="Instagram" /></p>
+<table align="center">
+  <tr>
+    <td align="center" width="75" height="65">
+      <img
+        src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg"
+        width="40"
+        alt="Gmail"
+      />
+    </td>
+    <td align="center" width="75" height="65">
+      <img
+        src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg"
+        width="40"
+        alt="Instagram"
+      />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0077ff&height=120&section=footer" width="100%" />
