@@ -4,14 +4,14 @@
 
 <p align="center">
   <strong>
-    <big><big><big><big>Hello, welcome to my GitHub profile!</big></big></big></big>
+    <big><big><big><big><big><big>Hello, welcome to my GitHub profile!</big></big></big></big></big></big>
   </strong>
 </p>
 
 <br>
 
 <p align="center">
-  <img src="./assets/blue-line.svg" width="100%" alt="" />
+  <img src="./assets/transferir.svg" width="100%" height="4" alt="" />
 </p>
 
 ## About Me
