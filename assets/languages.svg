@@ -1,20 +1,20 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  width="800"
+  width="1000"
   height="105"
-  viewBox="0 0 800 105"
+  viewBox="0 0 1000 105"
 >
 
   <rect
-    width="800"
+    width="1000"
     height="105"
     fill="#0d1117"
   />
 
   <text
-    x="20"
+    x="25"
     y="28"
-    fill="#0077ff"
+    fill="#0057B8"
     font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
     font-size="16"
     font-weight="600"
@@ -23,9 +23,9 @@
   </text>
 
   <rect
-    x="20"
+    x="25"
     y="45"
-    width="760"
+    width="950"
     height="8"
     rx="4"
     fill="#21262d"
@@ -33,9 +33,9 @@
 
   <clipPath id="barClip">
     <rect
-      x="20"
+      x="25"
       y="45"
-      width="760"
+      width="950"
       height="8"
       rx="4"
     />
@@ -44,41 +44,41 @@
   <g clip-path="url(#barClip)">
     
       <rect
-        x="20.00"
+        x="25.00"
         y="45"
-        width="284.00"
+        width="355.00"
         height="8"
         fill="#e34c26"
       />
     
       <rect
-        x="304.00"
+        x="380.00"
         y="45"
-        width="179.22"
+        width="224.03"
         height="8"
         fill="#663399"
       />
     
       <rect
-        x="483.23"
+        x="604.03"
         y="45"
-        width="175.44"
+        width="219.29"
         height="8"
         fill="#f1e05a"
       />
     
       <rect
-        x="658.66"
+        x="823.33"
         y="45"
-        width="110.47"
+        width="138.09"
         height="8"
         fill="#b07219"
       />
     
       <rect
-        x="769.13"
+        x="961.41"
         y="45"
-        width="10.87"
+        width="13.59"
         height="8"
         fill="#3572A5"
       />
@@ -86,7 +86,7 @@
   </g>
 
   
-      <g transform="translate(20.00, 80)">
+      <g transform="translate(25.00, 80)">
         <circle
           cx="5"
           cy="-4"
@@ -104,7 +104,7 @@
         >HTML 37.37%</text>
       </g>
     
-      <g transform="translate(172.00, 80)">
+      <g transform="translate(215.00, 80)">
         <circle
           cx="5"
           cy="-4"
@@ -122,7 +122,7 @@
         >CSS 23.58%</text>
       </g>
     
-      <g transform="translate(324.00, 80)">
+      <g transform="translate(405.00, 80)">
         <circle
           cx="5"
           cy="-4"
@@ -140,7 +140,7 @@
         >JavaScript 23.08%</text>
       </g>
     
-      <g transform="translate(476.00, 80)">
+      <g transform="translate(595.00, 80)">
         <circle
           cx="5"
           cy="-4"
@@ -158,7 +158,7 @@
         >Java 14.54%</text>
       </g>
     
-      <g transform="translate(628.00, 80)">
+      <g transform="translate(785.00, 80)">
         <circle
           cx="5"
           cy="-4"
