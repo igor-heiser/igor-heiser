@@ -1,0 +1,261 @@
+name: Update Language Statistics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-languages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate language card
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require("fs");
+
+            const owner = context.repo.owner;
+
+            console.log(`Generating language statistics for ${owner}...`);
+
+            const repos = await github.paginate(
+              github.rest.repos.listForUser,
+              {
+                username: owner,
+                per_page: 100,
+                type: "owner"
+              }
+            );
+
+            const totals = {};
+
+            for (const repo of repos) {
+              if (repo.fork) {
+                continue;
+              }
+
+              try {
+                const response = await github.rest.repos.listLanguages({
+                  owner: owner,
+                  repo: repo.name
+                });
+
+                for (const [language, bytes] of Object.entries(response.data)) {
+                  totals[language] = (totals[language] || 0) + bytes;
+                }
+              } catch (error) {
+                console.log(`Could not read languages from ${repo.name}`);
+              }
+            }
+
+            const sorted = Object.entries(totals)
+              .sort((a, b) => b[1] - a[1])
+              .slice(0, 5);
+
+            const totalBytes = sorted.reduce(
+              (sum, [, bytes]) => sum + bytes,
+              0
+            );
+
+            const colors = {
+              JavaScript: "#f1e05a",
+              TypeScript: "#3178c6",
+              HTML: "#e34c26",
+              CSS: "#663399",
+              Java: "#b07219",
+              Python: "#3572A5",
+              Shell: "#89e051",
+              C: "#555555",
+              "C++": "#f34b7d",
+              "C#": "#178600",
+              PHP: "#4F5D95",
+              Kotlin: "#A97BFF",
+              Dart: "#00B4AB",
+              Vue: "#41b883",
+              Ruby: "#701516",
+              Go: "#00ADD8",
+              Rust: "#dea584",
+              Swift: "#F05138",
+              SCSS: "#c6538c"
+            };
+
+            const fallbackColors = [
+              "#0077ff",
+              "#00b4d8",
+              "#48cae4",
+              "#90e0ef",
+              "#ade8f4"
+            ];
+
+            const languages = sorted.map(([name, bytes], index) => {
+              return {
+                name: name,
+                bytes: bytes,
+                percentage: totalBytes
+                  ? (bytes / totalBytes) * 100
+                  : 0,
+                color:
+                  colors[name] ||
+                  fallbackColors[index % fallbackColors.length]
+              };
+            });
+
+            const escapeXml = (value) => {
+              return value
+                .replaceAll("&", "&amp;")
+                .replaceAll("<", "&lt;")
+                .replaceAll(">", "&gt;")
+                .replaceAll('"', "&quot;")
+                .replaceAll("'", "&apos;");
+            };
+
+            const cardWidth = 800;
+            const cardHeight = 105;
+
+            const innerX = 20;
+            const innerWidth = 760;
+
+            const barY = 45;
+            const barHeight = 8;
+
+            let barX = innerX;
+
+            const bars = languages
+              .map((language) => {
+                const width =
+                  (innerWidth * language.percentage) / 100;
+
+                const rect = `
+                  <rect
+                    x="${barX.toFixed(2)}"
+                    y="${barY}"
+                    width="${width.toFixed(2)}"
+                    height="${barHeight}"
+                    fill="${language.color}"
+                  />
+                `;
+
+                barX += width;
+
+                return rect;
+              })
+              .join("");
+
+            const columnWidth =
+              innerWidth / Math.max(languages.length, 1);
+
+            const labels = languages
+              .map((language, index) => {
+                const x =
+                  innerX + index * columnWidth;
+
+                return `
+                  <g transform="translate(${x.toFixed(2)}, 80)">
+                    <circle
+                      cx="5"
+                      cy="-4"
+                      r="5"
+                      fill="${language.color}"
+                    />
+
+                    <text
+                      x="15"
+                      y="0"
+                      fill="#ffffff"
+                      font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+                      font-size="11"
+                      font-weight="600"
+                    >${escapeXml(language.name)} ${language.percentage.toFixed(2)}%</text>
+                  </g>
+                `;
+              })
+              .join("");
+
+            const svg = `
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="${cardWidth}"
+              height="${cardHeight}"
+              viewBox="0 0 ${cardWidth} ${cardHeight}"
+            >
+
+              <rect
+                width="${cardWidth}"
+                height="${cardHeight}"
+                fill="#0d1117"
+              />
+
+              <text
+                x="20"
+                y="28"
+                fill="#0077ff"
+                font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+                font-size="16"
+                font-weight="600"
+              >
+                Most Used Languages
+              </text>
+
+              <rect
+                x="${innerX}"
+                y="${barY}"
+                width="${innerWidth}"
+                height="${barHeight}"
+                rx="4"
+                fill="#21262d"
+              />
+
+              <clipPath id="barClip">
+                <rect
+                  x="${innerX}"
+                  y="${barY}"
+                  width="${innerWidth}"
+                  height="${barHeight}"
+                  rx="4"
+                />
+              </clipPath>
+
+              <g clip-path="url(#barClip)">
+                ${bars}
+              </g>
+
+              ${labels}
+
+            </svg>
+            `;
+
+            fs.mkdirSync("assets", {
+              recursive: true
+            });
+
+            fs.writeFileSync(
+              "assets/languages.svg",
+              svg.trim()
+            );
+
+            console.log("languages.svg generated successfully!");
+
+      - name: Commit updated language card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/languages.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "update language statistics"
+          git push
