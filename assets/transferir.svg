@@ -1,19 +1,38 @@
 <svg width="1000" height="4" viewBox="0 0 1000 4" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#001f5c">
-        <animate attributeName="stop-color" values="#001f5c;#0077ff;#003d99;#001f5c" dur="4s" repeatCount="indefinite"></animate>
+      <stop offset="0%" stop-color="#001A33">
+        <animate
+          attributeName="stop-color"
+          values="#001A33;#003366;#00264D;#001A33"
+          dur="4s"
+          repeatCount="indefinite"
+        />
       </stop>
 
-      <stop offset="50%" stop-color="#0077ff">
-        <animate attributeName="stop-color" values="#0077ff;#003d99;#0055cc;#0077ff" dur="4s" repeatCount="indefinite"></animate>
+      <stop offset="50%" stop-color="#003366">
+        <animate
+          attributeName="stop-color"
+          values="#003366;#004A80;#00264D;#003366"
+          dur="4s"
+          repeatCount="indefinite"
+        />
       </stop>
 
-      <stop offset="100%" stop-color="#001f5c">
-        <animate attributeName="stop-color" values="#001f5c;#0055cc;#0077ff;#001f5c" dur="4s" repeatCount="indefinite"></animate>
+      <stop offset="100%" stop-color="#001A33">
+        <animate
+          attributeName="stop-color"
+          values="#001A33;#002F5C;#003D73;#001A33"
+          dur="4s"
+          repeatCount="indefinite"
+        />
       </stop>
     </linearGradient>
   </defs>
 
-  <rect width="1000" height="4" fill="url(#blueGradient)"></rect>
+  <rect
+    width="1000"
+    height="4"
+    fill="url(#blueGradient)"
+  />
 </svg>
