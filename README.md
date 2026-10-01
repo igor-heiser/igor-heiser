@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0077ff&height=120&section=header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=003366&height=120&section=header" width="100%" />
 </p>
 
 <p align="center">
@@ -66,8 +66,8 @@ I enjoy turning ideas into code and continuously improving my skills.
 
 <table align="center" width="100%">
 <tr>
-<td align="center" width="50%"><img height="170" src="https://github-stats-extended.vercel.app/api?username=igor-heiser&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=0077ff&text_color=ffffff&icon_color=0077ff&bg_color=0d1117" alt="Igor's GitHub Stats" /></td>
-<td align="center" width="50%"><img height="170" src="https://streak-stats.demolab.com?user=igor-heiser&theme=github-dark-blue&hide_border=true&background=0D1117&ring=0077FF&fire=0077FF&currStreakLabel=0077FF" alt="Igor's GitHub Streak" /></td>
+<td align="center" width="50%"><img height="170" src="https://github-stats-extended.vercel.app/api?username=igor-heiser&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=0057B8&text_color=ffffff&icon_color=0057B8&bg_color=0d1117" alt="Igor's GitHub Stats" /></td>
+<td align="center" width="50%"><img height="170" src="https://streak-stats.demolab.com?user=igor-heiser&theme=github-dark-blue&hide_border=true&background=0D1117&ring=0057B8&fire=0057B8&currStreakLabel=0057B8" alt="Igor's GitHub Streak" /></td>
 </tr>
 </table>
 
@@ -83,6 +83,8 @@ I enjoy turning ideas into code and continuously improving my skills.
 
 ## Get in Touch
 
+Feel free to reach out! You can contact me through the platforms below.
+
 <table align="center">
 <tr>
 <td align="center" width="75" height="65"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="40" alt="Gmail" /></td>
@@ -91,5 +93,5 @@ I enjoy turning ideas into code and continuously improving my skills.
 </table>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0077ff&height=120&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=003366&height=120&section=footer" width="100%" />
 </p>
