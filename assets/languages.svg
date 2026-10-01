@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="105" viewBox="0 0 800 105">
+  <rect width="800" height="105" fill="#0d1117"/>
+
+  <text
+    x="20"
+    y="28"
+    fill="#0077ff"
+    font-family="Arial, sans-serif"
+    font-size="16"
+    font-weight="600"
+  >
+    Most Used Languages
+  </text>
+
+  <rect
+    x="20"
+    y="45"
+    width="760"
+    height="8"
+    rx="4"
+    fill="#21262d"
+  />
+
+  <text
+    x="20"
+    y="80"
+    fill="#ffffff"
+    font-family="Arial, sans-serif"
+    font-size="12"
+  >
+    Loading language statistics...
+  </text>
+</svg>
