@@ -106,8 +106,8 @@ I enjoy turning ideas into code and continuously improving my skills.
     <td align="center">
       <img
         height="170"
-        src="https://github-stats-extended.vercel.app/api/top-langs/?username=igor-heiser&layout=compact&hide_border=true&langs_count=6&title_color=0077ff&text_color=ffffff&bg_color=0d1117"
-        alt="Igor's Most Used Languages"
+        src="https://streak-stats.demolab.com?user=igor-heiser&theme=github-dark-blue&hide_border=true&background=0D1117&ring=0077FF&fire=0077FF&currStreakLabel=0077FF"
+        alt="Igor's GitHub Streak"
       />
     </td>
   </tr>
@@ -115,12 +115,12 @@ I enjoy turning ideas into code and continuously improving my skills.
 
 <br>
 
-<table align="center">
+<table align="center" width="830">
   <tr>
-    <td align="center">
+    <td align="center" colspan="5">
       <img
-        src="https://streak-stats.demolab.com?user=igor-heiser&theme=github-dark-blue&hide_border=true&background=0D1117&ring=0077FF&fire=0077FF&currStreakLabel=0077FF"
-        alt="Igor's GitHub Streak"
+        src="https://github-stats-extended.vercel.app/api/top-langs/?username=igor-heiser&layout=compact&card_width=800&hide_border=true&langs_count=5&hide_title=false&title_color=0077ff&text_color=ffffff&bg_color=0d1117"
+        alt="Igor's Most Used Languages"
       />
     </td>
   </tr>
