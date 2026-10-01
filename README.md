@@ -64,18 +64,18 @@ I enjoy turning ideas into code and continuously improving my skills.
 
 ## GitHub Statistics
 
-<table align="center">
+<table align="center" width="100%">
 <tr>
-<td align="center"><img height="170" src="https://github-stats-extended.vercel.app/api?username=igor-heiser&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=0077ff&text_color=ffffff&icon_color=0077ff&bg_color=0d1117" alt="Igor's GitHub Stats" /></td>
-<td align="center"><img height="170" src="https://streak-stats.demolab.com?user=igor-heiser&theme=github-dark-blue&hide_border=true&background=0D1117&ring=0077FF&fire=0077FF&currStreakLabel=0077FF" alt="Igor's GitHub Streak" /></td>
+<td align="center" width="50%"><img height="170" src="https://github-stats-extended.vercel.app/api?username=igor-heiser&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=0077ff&text_color=ffffff&icon_color=0077ff&bg_color=0d1117" alt="Igor's GitHub Stats" /></td>
+<td align="center" width="50%"><img height="170" src="https://streak-stats.demolab.com?user=igor-heiser&theme=github-dark-blue&hide_border=true&background=0D1117&ring=0077FF&fire=0077FF&currStreakLabel=0077FF" alt="Igor's GitHub Streak" /></td>
 </tr>
 </table>
 
 <br>
 
-<table align="center">
+<table align="center" width="100%">
 <tr>
-<td align="center"><img src="./assets/languages.svg" width="800" alt="Igor's Most Used Languages" /></td>
+<td align="center"><img src="./assets/languages.svg" width="100%" alt="Igor's Most Used Languages" /></td>
 </tr>
 </table>
 
