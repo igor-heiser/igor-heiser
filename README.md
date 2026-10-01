@@ -103,6 +103,7 @@ I enjoy turning ideas into code and continuously improving my skills.
         alt="Igor's GitHub Stats"
       />
     </td>
+
     <td align="center">
       <img
         height="170"
@@ -115,11 +116,12 @@ I enjoy turning ideas into code and continuously improving my skills.
 
 <br>
 
-<table align="center" width="830">
+<table align="center">
   <tr>
-    <td align="center" colspan="5">
+    <td align="center">
       <img
-        src="https://github-stats-extended.vercel.app/api/top-langs/?username=igor-heiser&layout=compact&card_width=800&hide_border=true&langs_count=5&hide_title=false&title_color=0077ff&text_color=ffffff&bg_color=0d1117"
+        src="./assets/languages.svg"
+        width="800"
         alt="Igor's Most Used Languages"
       />
     </td>
@@ -139,6 +141,7 @@ I enjoy turning ideas into code and continuously improving my skills.
         alt="Gmail"
       />
     </td>
+
     <td align="center" width="75" height="65">
       <img
         src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg"
