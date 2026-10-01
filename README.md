@@ -12,7 +12,7 @@
 
 ## About Me
 
-I am currently attending high school at SENAI, taking a technical course in Web Informatics at CentroWEG, and also pursuing a technical course in Systems Development at SENAI. I'm a developer who is constantly growing, always looking to learn new tools, explore different areas of technology, and build projects that challenge me. I enjoy turning ideas into code and continuously improving my skills.
+I am currently attending high school and also pursuing a technical course in Systems Development at SENAI and taking a technical course in Web Informatics at CentroWEG. I'm a developer who is constantly growing, always looking to learn new tools, explore different areas of technology, and build projects that challenge me. I enjoy turning ideas into code and continuously improving my skills.
 
 ## Technologies I Use
 
