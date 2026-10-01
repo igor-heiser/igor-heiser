@@ -97,18 +97,16 @@ jobs:
               "#ade8f4"
             ];
 
-            const languages = sorted.map(([name, bytes], index) => {
-              return {
-                name: name,
-                bytes: bytes,
-                percentage: totalBytes
-                  ? (bytes / totalBytes) * 100
-                  : 0,
-                color:
-                  colors[name] ||
-                  fallbackColors[index % fallbackColors.length]
-              };
-            });
+            const languages = sorted.map(([name, bytes], index) => ({
+              name,
+              bytes,
+              percentage: totalBytes
+                ? (bytes / totalBytes) * 100
+                : 0,
+              color:
+                colors[name] ||
+                fallbackColors[index % fallbackColors.length]
+            }));
 
             const escapeXml = (value) => {
               return value
@@ -119,11 +117,11 @@ jobs:
                 .replaceAll("'", "&apos;");
             };
 
-            const cardWidth = 800;
+            const cardWidth = 1000;
             const cardHeight = 105;
 
-            const innerX = 20;
-            const innerWidth = 760;
+            const innerX = 25;
+            const innerWidth = 950;
 
             const barY = 45;
             const barHeight = 8;
@@ -196,7 +194,7 @@ jobs:
               />
 
               <text
-                x="20"
+                x="25"
                 y="28"
                 fill="#0077ff"
                 font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
