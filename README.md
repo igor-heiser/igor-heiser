@@ -16,9 +16,9 @@ I am currently attending high school and also pursuing a technical course in Sys
 
 ## Technologies I Use
 
-<h3 align="center">Front-end</h3>
+<h3 align="left">Front-end</h3>
 
-<table align="center">
+<table align="left">
 <tr>
 <td align="center" width="75" height="65"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" alt="HTML5" /></td>
 <td align="center" width="75" height="65"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" alt="CSS3" /></td>
@@ -27,26 +27,32 @@ I am currently attending high school and also pursuing a technical course in Sys
 </tr>
 </table>
 
-<h3 align="center">Back-end</h3>
+<br clear="left">
 
-<table align="center">
+<h3 align="left">Back-end</h3>
+
+<table align="left">
 <tr>
 <td align="center" width="75" height="65"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" alt="Java" /></td>
 <td align="center" width="75" height="65"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" alt="Python" /></td>
 </tr>
 </table>
 
-<h3 align="center">Databases</h3>
+<br clear="left">
 
-<table align="center">
+<h3 align="left">Databases</h3>
+
+<table align="left">
 <tr>
 <td align="center" width="75" height="65"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" alt="MySQL" /></td>
 </tr>
 </table>
 
-<h3 align="center">Other Technologies</h3>
+<br clear="left">
 
-<table align="center">
+<h3 align="left">Other Technologies</h3>
+
+<table align="left">
 <tr>
 <td align="center" width="75" height="65"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" width="40" alt="Canva" /></td>
 <td align="center" width="75" height="65"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" width="40" alt="Notion" /></td>
@@ -59,6 +65,7 @@ I am currently attending high school and also pursuing a technical course in Sys
 </tr>
 </table>
 
+<br clear="left">
 <br>
 
 ## GitHub Statistics
