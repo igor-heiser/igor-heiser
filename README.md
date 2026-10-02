@@ -12,7 +12,8 @@
 
 ## About Me
 
-I am currently attending high school and also pursuing a technical course in Systems Development at SENAI and taking a technical course in Web Informatics at CentroWEG. I'm a developer who is constantly growing, always looking to learn new tools, explore different areas of technology, and build projects that challenge me. I enjoy turning ideas into code and continuously improving my skills.
+I am currently attending high school at SENAI, taking a technical course in Web Informatics at CentroWEG, and also pursuing a technical course in Systems Development at SENAI. I'm a developer who is constantly growing, always looking to learn new tools, explore different areas of technology, and build projects that challenge me.  
+I enjoy turning ideas into code and continuously improving my skills.
 
 ## Technologies I Use
 
@@ -86,8 +87,9 @@ Feel free to reach out! You can contact me through the platforms below.
 
 <table align="center">
 <tr>
-<td align="center" width="75" height="65"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="40" alt="Gmail" /></td>
-<td align="center" width="75" height="65"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="40" alt="Instagram" /></td>
+<td align="center" width="75" height="65"><a href="mailto:igorheiser210@gmail.com"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="40" alt="Gmail" /></a></td>
+<td align="center" width="75" height="65"><a href="https://www.instagram.com/heiser_igor/" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="40" alt="Instagram" /></a></td>
+<td align="center" width="75" height="65"><a href="https://www.linkedin.com/in/igor-negherbon-heiser-a74203440/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" width="40" alt="LinkedIn" /></a></td>
 </tr>
 </table>
 
