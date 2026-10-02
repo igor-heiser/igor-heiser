@@ -46,39 +46,39 @@
       <rect
         x="25.00"
         y="45"
-        width="355.00"
+        width="318.57"
         height="8"
         fill="#e34c26"
       />
     
       <rect
-        x="380.00"
+        x="343.57"
         y="45"
-        width="224.03"
-        height="8"
-        fill="#663399"
-      />
-    
-      <rect
-        x="604.03"
-        y="45"
-        width="219.29"
+        width="294.29"
         height="8"
         fill="#f1e05a"
       />
     
       <rect
-        x="823.33"
+        x="637.86"
         y="45"
-        width="138.09"
+        width="201.03"
+        height="8"
+        fill="#663399"
+      />
+    
+      <rect
+        x="838.89"
+        y="45"
+        width="123.91"
         height="8"
         fill="#b07219"
       />
     
       <rect
-        x="961.41"
+        x="962.81"
         y="45"
-        width="13.59"
+        width="12.19"
         height="8"
         fill="#3572A5"
       />
@@ -101,28 +101,10 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >HTML 37.37%</text>
+        >HTML 33.53%</text>
       </g>
     
       <g transform="translate(215.00, 80)">
-        <circle
-          cx="5"
-          cy="-4"
-          r="5"
-          fill="#663399"
-        />
-
-        <text
-          x="15"
-          y="0"
-          fill="#ffffff"
-          font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
-          font-size="11"
-          font-weight="600"
-        >CSS 23.58%</text>
-      </g>
-    
-      <g transform="translate(405.00, 80)">
         <circle
           cx="5"
           cy="-4"
@@ -137,7 +119,25 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >JavaScript 23.08%</text>
+        >JavaScript 30.98%</text>
+      </g>
+    
+      <g transform="translate(405.00, 80)">
+        <circle
+          cx="5"
+          cy="-4"
+          r="5"
+          fill="#663399"
+        />
+
+        <text
+          x="15"
+          y="0"
+          fill="#ffffff"
+          font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="11"
+          font-weight="600"
+        >CSS 21.16%</text>
       </g>
     
       <g transform="translate(595.00, 80)">
@@ -155,7 +155,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >Java 14.54%</text>
+        >Java 13.04%</text>
       </g>
     
       <g transform="translate(785.00, 80)">
@@ -173,7 +173,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >Python 1.43%</text>
+        >Python 1.28%</text>
       </g>
     
 
