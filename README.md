@@ -1,13 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=003366&height=120&section=header" width="100%" />
-</p>
-
-<p align="center">
-  <img src="./assets/welcome-cropped.png" width="650" alt="Hello, welcome to my GitHub profile!" />
-</p>
-
-<p align="center">
-  <img src="./assets/transferir.svg" width="100%" height="4" alt="" />
+  <img src="./assets/igor-profile-card-blue-welcome-taller-small-text.svg" width="100%" alt="Welcome to my GitHub profile!" />
 </p>
 
 ## About Me
