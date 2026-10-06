@@ -4,7 +4,7 @@
 
 ## About Me
 
-<img src="./assets/about-me-blue-square.svg" width="240" align="right" alt="" />
+<img src="./assets/about-me-blue-wide.svg" width="520" align="right" alt="" />
 
 I am currently attending high school and also pursuing a technical course in Systems Development at SENAI and taking a technical course in Web Informatics at CentroWEG.
 
