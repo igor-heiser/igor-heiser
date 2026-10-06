@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="440" viewBox="0 0 440 440">
+  <defs>
+    <clipPath id="cardClip">
+      <rect x="12" y="12" width="416" height="416" rx="34"/>
+    </clipPath>
+
+    <!-- Azul escuro, sem roxo -->
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071a33"/>
+      <stop offset="28%" stop-color="#0a3d70"/>
+      <stop offset="55%" stop-color="#0066b8"/>
+      <stop offset="78%" stop-color="#0a3d70"/>
+      <stop offset="100%" stop-color="#071a33"/>
+      <animateTransform
+        attributeName="gradientTransform"
+        type="rotate"
+        values="0 .5 .5;180 .5 .5;360 .5 .5"
+        dur="8s"
+        repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="movingLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#003366" stop-opacity="0"/>
+      <stop offset="42%" stop-color="#0057a8" stop-opacity=".25"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity=".95"/>
+      <stop offset="58%" stop-color="#0057a8" stop-opacity=".25"/>
+      <stop offset="100%" stop-color="#003366" stop-opacity="0">
+        <animate attributeName="offset" values="1;1" dur="1s" repeatCount="indefinite"/>
+      </stop>
+      <animateTransform
+        attributeName="gradientTransform"
+        type="translate"
+        values="-1 0;1 0;-1 0"
+        dur="5s"
+        repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="glow1">
+      <stop offset="0%" stop-color="#0099d8" stop-opacity=".48"/>
+      <stop offset="45%" stop-color="#0066a8" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#07111d" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow2">
+      <stop offset="0%" stop-color="#1268c4" stop-opacity=".40"/>
+      <stop offset="48%" stop-color="#0b3d78" stop-opacity=".15"/>
+      <stop offset="100%" stop-color="#07111d" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow3">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity=".27"/>
+      <stop offset="52%" stop-color="#075985" stop-opacity=".10"/>
+      <stop offset="100%" stop-color="#07111d" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="blur50" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="42"/>
+    </filter>
+
+    <filter id="blur22" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+
+    <filter id="smallGlow" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" fill="none"/>
+
+  <!-- Estrutura original do card -->
+  <g>
+    <rect x="12" y="12" width="416" height="416" rx="34" fill="url(#border)"/>
+    <rect x="14" y="14" width="412" height="412" rx="32" fill="#080d15"/>
+  </g>
+
+  <g clip-path="url(#cardClip)">
+    <!-- Luz azul esquerda -->
+    <ellipse cx="70" cy="340" rx="250" ry="250" fill="url(#glow1)" filter="url(#blur50)">
+      <animate attributeName="cx" values="45;120;205;120;45" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="290;260;215;255;290" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".45;.62;.88;.68;.45" dur="13s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Luz azul direita -->
+    <ellipse cx="375" cy="80" rx="255" ry="250" fill="url(#glow2)" filter="url(#blur50)">
+      <animate attributeName="cx" values="395;350;260;330;395" dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="55;85;125;90;55" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".42;.58;.84;.66;.42" dur="14s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Luz central -->
+    <ellipse cx="220" cy="420" rx="280" ry="180" fill="url(#glow3)" filter="url(#blur50)">
+      <animate attributeName="cx" values="100;180;330;210;100" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".25;.38;.66;.48;.25" dur="10s" repeatCount="indefinite"/>
+    </ellipse>
+
+
+    <!-- Pontos azuis -->
+    <g fill="#7dd3fc" filter="url(#smallGlow)">
+      <circle r="1.5">
+        <animate attributeName="cx" values="55;160;330;55" dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="90;70;105;90" dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".1;.85;.2;.1" dur="7s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle r="1.2">
+        <animate attributeName="cx" values="390;300;355;390" dur="13s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="275;245;295;275" dur="13s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".75;.1;.7;.75" dur="8s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle r="1">
+        <animate attributeName="cx" values="320;390;270;320" dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="80;110;65;80" dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".1;.7;.15;.1" dur="7s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle r="1">
+        <animate attributeName="cx" values="90;220;60;90" dur="8.5s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="265;235;280;265" dur="8.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".65;.12;.6;.65" dur="8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Moldura interna discreta -->
+    <rect x="28" y="28" width="384" height="384" rx="27"
+          fill="none" stroke="#9bdcff" stroke-opacity=".055"/>
+  </g>
+
+  <!-- Brilho percorrendo a borda -->
+  <rect x="13" y="13" width="414" height="414" rx="33"
+        fill="none" stroke="url(#movingLine)" stroke-width="2.2">
+    <animate attributeName="stroke-opacity" values=".45;.62;.88;.62;.45" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Nome permanece branco e limpo -->
+</svg>
