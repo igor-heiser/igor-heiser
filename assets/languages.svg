@@ -46,39 +46,39 @@
       <rect
         x="25.00"
         y="45"
-        width="333.77"
+        width="316.80"
         height="8"
         fill="#e34c26"
       />
     
       <rect
-        x="358.77"
+        x="341.80"
         y="45"
-        width="262.99"
+        width="249.62"
         height="8"
         fill="#f1e05a"
       />
     
       <rect
-        x="621.77"
+        x="591.41"
         y="45"
-        width="210.63"
+        width="199.92"
         height="8"
         fill="#663399"
       />
     
       <rect
-        x="832.40"
+        x="791.33"
         y="45"
-        width="129.83"
+        width="171.55"
         height="8"
         fill="#b07219"
       />
     
       <rect
-        x="962.23"
+        x="962.88"
         y="45"
-        width="12.77"
+        width="12.12"
         height="8"
         fill="#3572A5"
       />
@@ -101,7 +101,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >HTML 35.13%</text>
+        >HTML 33.35%</text>
       </g>
     
       <g transform="translate(215.00, 80)">
@@ -119,7 +119,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >JavaScript 27.68%</text>
+        >JavaScript 26.28%</text>
       </g>
     
       <g transform="translate(405.00, 80)">
@@ -137,7 +137,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >CSS 22.17%</text>
+        >CSS 21.04%</text>
       </g>
     
       <g transform="translate(595.00, 80)">
@@ -155,7 +155,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >Java 13.67%</text>
+        >Java 18.06%</text>
       </g>
     
       <g transform="translate(785.00, 80)">
@@ -173,7 +173,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >Python 1.34%</text>
+        >Python 1.28%</text>
       </g>
     
 
