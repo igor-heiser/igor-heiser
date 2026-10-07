@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790">
+<defs>
+  <linearGradient id="borderGradient" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#003366"/>
+    <stop offset=".48" stop-color="#0057B8"/>
+    <stop offset="1" stop-color="#00AEEF"/>
+  </linearGradient>
+  <radialGradient id="glowLeft"><stop stop-color="#0057B8" stop-opacity=".32"/><stop offset="1" stop-color="#0057B8" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowRight"><stop stop-color="#00AEEF" stop-opacity=".18"/><stop offset="1" stop-color="#00AEEF" stop-opacity="0"/></radialGradient>
+  <clipPath id="cardClip"><rect x="12" y="12" width="1176" height="766" rx="34"/></clipPath>
+</defs>
+<rect x="12" y="12" width="1176" height="766" rx="34" fill="#07111f" stroke="url(#borderGradient)" stroke-width="2"/>
+
+<g clip-path="url(#cardClip)">
+  <ellipse cx="160" cy="145" rx="330" ry="260" fill="url(#glowLeft)">
+    <animate attributeName="cx" values="160;260;160" dur="8s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="1050" cy="570" rx="350" ry="270" fill="url(#glowRight)">
+    <animate attributeName="cx" values="1050;930;1050" dur="9s" repeatCount="indefinite"/>
+  </ellipse>
+  <path d="M0 390 C260 300 420 470 650 380 S980 290 1200 360" fill="none" stroke="#0057B8" stroke-opacity=".10" stroke-width="2">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M0 390 C260 300 420 470 650 380 S980 290 1200 360;
+              M0 360 C250 460 470 300 680 400 S980 470 1200 330;
+              M0 390 C260 300 420 470 650 380 S980 290 1200 360"/>
+  </path>
+
+  <g fill="#168ED1">
+    <circle cx="105" cy="104" r="2.2" opacity=".50">
+      <animate attributeName="cy" values="104;82;104" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".25;.9;.25" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="292" cy="92" r="1.6" opacity=".38">
+      <animate attributeName="cy" values="92;116;92" dur="6.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.75;.2" dur="4.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="515" cy="118" r="2.1" opacity=".42">
+      <animate attributeName="cx" values="515;535;515" dur="6.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".25;.85;.25" dur="4.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="760" cy="92" r="1.7" opacity=".46">
+      <animate attributeName="cy" values="92;70;92" dur="5.9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.8;.2" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1042" cy="130" r="2.3" opacity=".50">
+      <animate attributeName="cx" values="1042;1018;1042" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".25;.95;.25" dur="4.7s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="180" cy="316" r="1.8" opacity=".44">
+      <animate attributeName="cy" values="316;292;316" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.8;.2" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="454" cy="300" r="2.2" opacity=".48">
+      <animate attributeName="cx" values="454;476;454" dur="5.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".25;.9;.25" dur="3.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="890" cy="330" r="1.6" opacity=".6">
+      <animate attributeName="cy" values="330;306;330" dur="6.9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.75;.2" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1100" cy="286" r="2.1" opacity=".48">
+      <animate attributeName="cx" values="1100;1078;1100" dur="6.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.9;.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="120" cy="520" r="2" opacity=".44">
+      <animate attributeName="cy" values="520;496;520" dur="6.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.85;.2" dur="4.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="570" cy="508" r="1.7" opacity=".42">
+      <animate attributeName="cx" values="570;594;570" dur="7.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.8;.2" dur="3.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="970" cy="548" r="2.2" opacity=".50">
+      <animate attributeName="cy" values="548;522;548" dur="5.7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".25;.95;.25" dur="4.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="250" cy="710" r="1.7" opacity=".42">
+      <animate attributeName="cy" values="710;688;710" dur="6.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.8;.2" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="690" cy="690" r="2.2" opacity=".46">
+      <animate attributeName="cx" values="690;712;690" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.9;.2" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1080" cy="720" r="1.8" opacity=".46">
+      <animate attributeName="cy" values="720;696;720" dur="6.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.85;.2" dur="4.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="420" cy="875" r="1.8" opacity=".38">
+      <animate attributeName="cx" values="420;444;420" dur="7.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.8;.2" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="915" cy="880" r="2.1" opacity=".66">
+      <animate attributeName="cy" values="880;856;880" dur="6.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.9;.2" dur="4.1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+<text x="55" y="62" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">Technologies I Use</text>
+<text x="55" y="125" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="18" font-weight="600">Front-end</text>
+<text x="55" y="305" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="18" font-weight="600">Back-end</text>
+<text x="55" y="485" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="18" font-weight="600">Databases</text>
+<text x="55" y="665" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="18" font-weight="600">Other Technologies</text>
+
+</g>
+
+
+<rect x="55" y="145" width="122" height="112" rx="16" fill="#0b1523" stroke="#173554" stroke-width="1.2"/>
+<g transform="translate(84 153) scale(.50)"><path fill="#E44D26" d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z"/><path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878H64z"/><path fill="#EBEBEB" d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z"/><path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z"/></g>
+<text x="116" y="236" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">HTML5</text>
+<rect x="193" y="145" width="122" height="112" rx="16" fill="#0b1523" stroke="#173554" stroke-width="1.2"/>
+<g transform="translate(222 153) scale(.50)"><path fill="#1572B6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"/><path fill="#33A9DC" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"/><path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95V51.429z"/><path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018v-14.39z"/><path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881H81.127z"/><path fill="#EBEBEB" d="M64.048 23.435v13.831H30.64l-.277-3.108-.63-7.012-.331-3.711h34.646zm-.047 27.996v13.831H48.792l-.277-3.108-.631-7.012-.33-3.711h16.447z"/></g>
+<text x="254" y="236" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">CSS3</text>
+<rect x="331" y="145" width="122" height="112" rx="16" fill="#0b1523" stroke="#173554" stroke-width="1.2"/>
+<g transform="translate(360 153) scale(.50)"><path fill="#F0DB4F" d="M2 1v125h125V1H2zm66.119 106.513c-1.845 3.749-5.367 6.212-9.448 7.401-6.271 1.44-12.269.619-16.731-2.059-2.986-1.832-5.318-4.652-6.901-7.901l9.52-5.83c.083.035.333.487.667 1.071 1.214 2.034 2.261 3.474 4.319 4.485 2.022.69 6.461 1.131 8.175-2.427 1.047-1.81.714-7.628.714-14.065C58.433 78.073 58.48 68 58.48 58h11.709c0 11 .06 21.418 0 32.152.025 6.58.596 12.446-2.07 17.361zm48.574-3.308c-4.07 13.922-26.762 14.374-35.83 5.176-1.916-2.165-3.117-3.296-4.26-5.795 4.819-2.772 4.819-2.772 9.508-5.485 2.547 3.915 4.902 6.068 9.139 6.949 5.748.702 11.531-1.273 10.234-7.378-1.333-4.986-11.77-6.199-18.873-11.531-7.211-4.843-8.901-16.611-2.975-23.335 1.975-2.487 5.343-4.343 8.877-5.235l3.688-.477c7.081-.143 11.507 1.727 14.756 5.355.904.916 1.642 1.904 3.022 4.045-3.772 2.404-3.76 2.381-9.163 5.879-1.154-2.486-3.069-4.046-5.093-4.724-3.142-.952-7.104.083-7.926 3.403-.285 1.023-.226 1.975.227 3.665 1.273 2.903 5.545 4.165 9.377 5.926 11.031 4.474 14.756 9.271 15.672 14.981.882 4.916-.213 8.105-.38 8.581z"/></g>
+<text x="392" y="236" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">JavaScript</text>
+<rect x="469" y="145" width="122" height="112" rx="16" fill="#0b1523" stroke="#173554" stroke-width="1.2"/>
+<g transform="translate(498 153) scale(.50)"><path fill="#0acf83" d="M45.5 129c11.9 0 21.5-9.6 21.5-21.5V86H45.5C33.6 86 24 95.6 24 107.5S33.6 129 45.5 129zm0 0"/><path fill="#a259ff" d="M24 64.5C24 52.6 33.6 43 45.5 43H67v43H45.5C33.6 86 24 76.4 24 64.5zm0 0"/><path fill="#f24e1e" d="M24 21.5C24 9.6 33.6 0 45.5 0H67v43H45.5C33.6 43 24 33.4 24 21.5zm0 0"/><path fill="#ff7262" d="M67 0h21.5C100.4 0 110 9.6 110 21.5S100.4 43 88.5 43H67zm0 0"/><path fill="#1abcfe" d="M110 64.5c0 11.9-9.6 21.5-21.5 21.5S67 76.4 67 64.5 76.6 43 88.5 43 110 52.6 110 64.5zm0 0"/></g>
+<text x="530" y="236" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">Figma</text>
+
+<rect x="55" y="325" width="122" height="112" rx="16" fill="#0b1523" stroke="#173554" stroke-width="1.2"/>
+<g transform="translate(84 333) scale(.50)"><path fill="#0074BD" d="M47.617 98.12s-4.767 2.774 3.397 3.71c9.892 1.13 14.947.968 25.845-1.092 0 0 2.871 1.795 6.873 3.351-24.439 10.47-55.308-.607-36.115-5.969zm-2.988-13.665s-5.348 3.959 2.823 4.805c10.567 1.091 18.91 1.18 33.354-1.6 0 0 1.993 2.025 5.132 3.131-29.542 8.64-62.446.68-41.309-6.336z"/><path fill="#EA2D2E" d="M69.802 61.271c6.025 6.935-1.58 13.17-1.58 13.17s15.289-7.891 8.269-17.777c-6.559-9.215-11.587-13.792 15.635-29.58 0 .001-42.731 10.67-22.324 34.187z"/><path fill="#0074BD" d="M102.123 108.229s3.529 2.91-3.888 5.159c-14.102 4.272-58.706 5.56-71.094.171-4.451-1.938 3.899-4.625 6.526-5.192 2.739-.593 4.303-.485 4.303-.485-4.953-3.487-32.013 6.85-13.743 9.815 49.821 8.076 90.817-3.637 77.896-9.468zM49.912 70.294s-22.686 5.389-8.033 7.348c6.188.828 18.518.638 30.011-.326 9.39-.789 18.813-2.474 18.813-2.474s-3.308 1.419-5.704 3.053c-23.042 6.061-67.544 3.238-54.731-2.958 10.832-5.239 19.644-4.643 19.644-4.643zm40.697 22.747c23.421-12.167 12.591-23.86 5.032-22.285-1.848.385-2.677.72-2.677.72s.688-1.079 2-1.543c14.953-5.255 26.451 15.503-4.823 23.725 0-.002.359-.327.468-.617z"/><path fill="#EA2D2E" d="M76.491 1.587S89.459 14.563 64.188 34.51c-20.266 16.006-4.621 25.13-.007 35.559-11.831-10.673-20.509-20.07-14.688-28.815C58.041 28.42 81.722 22.195 76.491 1.587z"/><path fill="#0074BD" d="M52.214 126.021c22.476 1.437 57-.8 57.817-11.436 0 0-1.571 4.032-18.577 7.231-19.186 3.612-42.854 3.191-56.887.874 0 .001 2.875 2.381 17.647 3.331z"/></g>
+<text x="116" y="416" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">Java</text>
+<rect x="193" y="325" width="122" height="112" rx="16" fill="#0b1523" stroke="#173554" stroke-width="1.2"/>
+<g transform="translate(222 333) scale(.50)"><path fill="#3776AB" d="M63 5c-29 0-27 13-27 13v13h28v4H25S5 33 5 64s17 30 17 30h10V80s-1-17 17-17h29s16 0 16-16V22S96 5 63 5zm-15 9a5 5 0 1 1 0 10 5 5 0 0 1 0-10z"/><path fill="#FFD43B" d="M65 123c29 0 27-13 27-13V97H64v-4h39s20 2 20-29-17-30-17-30H96v14s1 17-17 17H50s-16 0-16 16v25s-2 17 31 17zm15-9a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/></g>
+<text x="254" y="416" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">Python</text>
+
+<rect x="55" y="505" width="122" height="112" rx="16" fill="#0b1523" stroke="#173554" stroke-width="1.2"/>
+<g transform="translate(84 513) scale(.50)"><path fill="#00618A" d="M117.688 98.242c-6.973-.191-12.297.461-16.852 2.379-1.293.547-3.355.559-3.566 2.18.711.746.82 1.859 1.387 2.777 1.086 1.754 2.922 4.113 4.559 5.352 1.789 1.348 3.633 2.793 5.551 3.961 3.414 2.082 7.223 3.27 10.504 5.352 1.938 1.23 3.859 2.777 5.75 4.164.934.684 1.563 1.75 2.773 2.18v-.195c-.637-.812-.801-1.93-1.387-2.777l-2.578-2.578c-2.52-3.344-5.719-6.281-9.117-8.719-2.711-1.949-8.781-4.578-9.91-7.73l-.199-.199c1.922-.219 4.172-.914 5.949-1.391 2.98-.797 5.645-.59 8.719-1.387l4.164-1.187v-.793c-1.555-1.594-2.664-3.707-4.359-5.152-4.441-3.781-9.285-7.555-14.273-10.703-2.766-1.746-6.184-2.883-9.117-4.363-.988-.496-2.719-.758-3.371-1.586-1.539-1.961-2.379-4.449-3.566-6.738-2.488-4.793-4.93-10.023-7.137-15.066-1.504-3.437-2.484-6.828-4.359-9.91-9-14.797-18.687-23.73-33.695-32.508-3.195-1.867-7.039-2.605-11.102-3.57l-6.543-.395c-1.332-.555-2.715-2.184-3.965-2.977C16.977 3.52 4.223-3.312.539 5.672-1.785 11.34 4.016 16.871 6.09 19.746c1.457 2.012 3.32 4.273 4.359 6.539.688 1.492.805 2.984 1.391 4.559 1.438 3.883 2.695 8.109 4.559 11.695.941 1.816 1.98 3.727 3.172 5.352.727.996 1.98 1.438 2.18 2.973-1.227 1.715-1.297 4.375-1.984 6.543-3.098 9.77-1.926 21.91 2.578 29.137 1.383 2.223 4.641 6.98 9.117 5.156 3.918-1.598 3.043-6.539 4.164-10.902.254-.988.098-1.715.594-2.379v.199l3.57 7.133c2.641 4.254 7.324 8.699 11.297 11.699 2.059 1.555 3.68 4.242 6.344 5.152v-.199h-.199c-.516-.805-1.324-1.137-1.98-1.781-1.551-1.523-3.277-3.414-4.559-5.156-3.613-4.902-6.805-10.27-9.711-15.855-1.391-2.668-2.598-5.609-3.77-8.324-.453-1.047-.445-2.633-1.387-3.172-1.281 1.988-3.172 3.598-4.164 5.945-1.582 3.754-1.789 8.336-2.375 13.082-.348.125-.195.039-.398.199-2.762-.668-3.73-3.508-4.758-5.949-2.594-6.164-3.078-16.09-.793-23.191.59-1.836 3.262-7.617 2.18-9.316-.516-1.691-2.219-2.672-3.172-3.965-1.18-1.598-2.355-3.703-3.172-5.551-2.125-4.805-3.113-10.203-5.352-15.062-1.07-2.324-2.875-4.676-4.359-6.738-1.645-2.289-3.484-3.977-4.758-6.742-.453-.984-1.066-2.559-.398-3.566.215-.684.516-.969 1.191-1.191 1.148-.887 4.352.297 5.547.793 3.18 1.32 5.832 2.578 8.527 4.363 1.289.855 2.598 2.512 4.16 2.973h1.785c2.789.641 5.914.195 8.523.988 4.609 1.402 8.738 3.582 12.488 5.949 11.422 7.215 20.766 17.48 27.156 29.734 1.027 1.973 1.473 3.852 2.379 5.945 1.824 4.219 4.125 8.559 5.941 12.688 1.816 4.113 3.582 8.27 6.148 11.695 1.348 1.801 6.551 2.766 8.918 3.766 1.66.699 4.379 1.43 5.949 2.379 3 1.809 5.906 3.965 8.723 5.945 1.402.992 5.73 3.168 5.945 4.957z"/></g>
+<text x="116" y="596" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">MySQL</text>
+
+<rect x="55" y="685" width="122" height="112" rx="16" fill="#0b1523" stroke="#173554" stroke-width="1.2"/>
+<g transform="translate(84 693) scale(.50)"><circle cx="64" cy="64" r="63" fill="#00C4CC"/><path fill="#fff" d="M83 43c-5-8-18-9-28-4-15 8-22 29-14 42 7 11 23 11 34 3 5-4 8-8 10-13-6 6-13 10-20 10-9 0-14-6-13-15 1-12 10-24 20-25 5-1 9 1 11 5z"/></g>
+<text x="116" y="776" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">Canva</text>
+<rect x="193" y="685" width="122" height="112" rx="16" fill="#0b1523" stroke="#173554" stroke-width="1.2"/>
+<g transform="translate(222 693) scale(.50)"><rect x="10" y="10" width="108" height="108" rx="10" fill="#fff" stroke="#111" stroke-width="7"/><path fill="#111" d="M35 34v8l10 2v40l-10 3v8h29v-8l-11-3V54l31 42h9V43l10-2v-8H75v8l10 2v34L55 34z"/></g>
+<text x="254" y="776" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">Notion</text>
+<rect x="331" y="685" width="122" height="112" rx="16" fill="#0b1523" stroke="#173554" stroke-width="1.2"/>
+<g transform="translate(360 693) scale(.50)"><circle cx="64" cy="64" r="62" fill="#fff"/><path fill="#181616" d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"/></g>
+<text x="392" y="776" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">GitHub</text>
+<rect x="469" y="685" width="122" height="112" rx="16" fill="#0b1523" stroke="#173554" stroke-width="1.2"/>
+<g transform="translate(498 693) scale(.50)"><circle cx="65" cy="64" r="54" fill="#2c2255"/><path fill="#f7941e" d="M62 5C28 6 2 32 2 64s26 58 60 59C32 118 11 94 11 64S32 10 62 5z"/><path fill="#fff" d="M14 55h112v7H14zm0 13h112v7H14z"/></g>
+<text x="530" y="776" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">Eclipse</text>
+<rect x="607" y="685" width="122" height="112" rx="16" fill="#0b1523" stroke="#173554" stroke-width="1.2"/>
+<g transform="translate(636 693) scale(.50)"><defs><linearGradient id="pycharm_pcg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#21d789"/><stop offset=".5" stop-color="#07c3f2"/><stop offset="1" stop-color="#fcf84a"/></linearGradient></defs><rect x="7" y="7" width="114" height="114" rx="18" fill="url(#pycharm_pcg)"/><rect x="27" y="27" width="74" height="74" fill="#000"/><text x="36" y="63" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="27" font-weight="700" fill="#FFFFFF">PC</text><rect x="36" y="85" width="28" height="4" fill="#fff"/></g>
+<text x="668" y="776" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">PyCharm</text>
+<rect x="745" y="685" width="122" height="112" rx="16" fill="#0b1523" stroke="#173554" stroke-width="1.2"/>
+<g transform="translate(774 693) scale(.50)"><path fill="#0065A9" d="M96 2 38 49 15 32a5 5 0 0 0-7 0l-7 7a5 5 0 0 0 0 8l20 17L1 81a5 5 0 0 0 0 8l7 7a5 5 0 0 0 7 0l23-17 58 47c3 2 7 2 10 0l18-9a8 8 0 0 0 4-7V18a8 8 0 0 0-4-7l-18-9c-3-2-7-2-10 0zm0 34v56L58 64z"/><path fill="#1F9CF0" d="M96 2c-3 1-4 3-4 7v110c0 4 2 6 5 7l27-13a8 8 0 0 0 4-7V22a8 8 0 0 0-4-7z"/></g>
+<text x="806" y="776" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">VS Code</text>
+<rect x="883" y="685" width="122" height="112" rx="16" fill="#0b1523" stroke="#173554" stroke-width="1.2"/>
+<g transform="translate(912 693) scale(.50)"><defs><linearGradient id="intellij_ijg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fc801d"/><stop offset=".35" stop-color="#fe2857"/><stop offset=".7" stop-color="#087cfa"/><stop offset="1" stop-color="#b248ae"/></linearGradient></defs><rect x="6" y="6" width="116" height="116" rx="18" fill="url(#intellij_ijg)"/><rect x="27" y="27" width="74" height="74" fill="#000"/><text x="36" y="64" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">IJ</text><rect x="36" y="85" width="28" height="4" fill="#fff"/></g>
+<text x="944" y="776" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">IntelliJ IDEA</text>
+<rect x="1021" y="685" width="122" height="112" rx="16" fill="#0b1523" stroke="#173554" stroke-width="1.2"/>
+<g transform="translate(1050 693) scale(.50)"><path fill="#2496ED" d="M126 55c-4-2-9-3-14-1-1-5-4-9-8-12l-2-1-1 2c-2 3-3 8-2 12 0 2 1 4 2 5-4 2-8 3-12 3H18c-1 7 0 13 3 19l1 2c6 10 17 15 31 15 26 0 47-12 57-36 7 0 13-2 16-7z"/><g fill="#2496ED"><rect x="28" y="52" width="10" height="10"/><rect x="40" y="52" width="10" height="10"/><rect x="52" y="52" width="10" height="10"/><rect x="64" y="52" width="10" height="10"/><rect x="76" y="52" width="10" height="10"/><rect x="40" y="40" width="10" height="10"/><rect x="52" y="40" width="10" height="10"/><rect x="64" y="40" width="10" height="10"/><rect x="52" y="28" width="10" height="10"/></g></g>
+<text x="1082" y="776" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">Docker</text>
+<rect x="13" y="13" width="1174" height="764" rx="33" fill="none" stroke="#0077cc" stroke-width="1.2" opacity=".55">
+  <animate attributeName="stroke-opacity" values=".35;.85;.35" dur="4s" repeatCount="indefinite"/>
+</rect>
+</svg>
