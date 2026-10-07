@@ -13,7 +13,7 @@ I'm a developer who is constantly growing, always looking to learn new tools, ex
 <br clear="right">
 
 <p align="center">
-  <img src="./assets/technologies-card.svg" width="100%" alt="Technologies I Use" />
+  <img src="./assets/technologies-card-standardized.svg" width="100%" alt="Technologies I Use" />
 </p>
 
 ## GitHub Statistics
