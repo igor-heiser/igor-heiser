@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440">
+<defs>
+  <clipPath id="cardClip"><rect x="12" y="12" width="1176" height="416" rx="34"/></clipPath>
+
+  <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#071a33"/>
+    <stop offset="28%" stop-color="#0a3d70"/>
+    <stop offset="55%" stop-color="#0066b8"/>
+    <stop offset="78%" stop-color="#0a3d70"/>
+    <stop offset="100%" stop-color="#071a33"/>
+    <animateTransform attributeName="gradientTransform" type="rotate"
+      values="0 .5 .5;180 .5 .5;360 .5 .5" dur="8s" repeatCount="indefinite"/>
+  </linearGradient>
+
+  <linearGradient id="movingLine" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#003366" stop-opacity="0"/>
+    <stop offset="42%" stop-color="#0057a8" stop-opacity=".25"/>
+    <stop offset="50%" stop-color="#38bdf8" stop-opacity=".95"/>
+    <stop offset="58%" stop-color="#0057a8" stop-opacity=".25"/>
+    <stop offset="100%" stop-color="#003366" stop-opacity="0"/>
+    <animateTransform attributeName="gradientTransform" type="translate"
+      values="-1 0;1 0;-1 0" dur="5s" repeatCount="indefinite"/>
+  </linearGradient>
+
+  <radialGradient id="glow1">
+    <stop offset="0%" stop-color="#0099d8" stop-opacity=".48"/>
+    <stop offset="45%" stop-color="#0066a8" stop-opacity=".18"/>
+    <stop offset="100%" stop-color="#07111d" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow2">
+    <stop offset="0%" stop-color="#1268c4" stop-opacity=".40"/>
+    <stop offset="48%" stop-color="#0b3d78" stop-opacity=".15"/>
+    <stop offset="100%" stop-color="#07111d" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow3">
+    <stop offset="0%" stop-color="#38bdf8" stop-opacity=".27"/>
+    <stop offset="52%" stop-color="#075985" stop-opacity=".10"/>
+    <stop offset="100%" stop-color="#07111d" stop-opacity="0"/>
+  </radialGradient>
+
+  <filter id="blur50" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="42"/>
+  </filter>
+  <filter id="smallGlow" x="-300%" y="-300%" width="700%" height="700%">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<rect width="1200" height="440" fill="none"/>
+<rect x="12" y="12" width="1176" height="416" rx="34" fill="url(#border)"/>
+<rect x="14" y="14" width="1172" height="412" rx="32" fill="#080d15"/>
+
+<g clip-path="url(#cardClip)">
+  <ellipse cx="95" cy="340" rx="330" ry="250" fill="url(#glow1)" filter="url(#blur50)">
+    <animate attributeName="cx" values="70;170;300;170;70" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="290;260;215;255;290" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".45;.62;.88;.68;.45" dur="13s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="1080" cy="80" rx="400" ry="250" fill="url(#glow2)" filter="url(#blur50)">
+    <animate attributeName="cx" values="1120;1020;780;960;1120" dur="13s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="55;85;125;90;55" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".42;.58;.84;.66;.42" dur="14s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="600" cy="420" rx="520" ry="180" fill="url(#glow3)" filter="url(#blur50)">
+    <animate attributeName="cx" values="180;500;1020;580;180" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".25;.38;.66;.48;.25" dur="10s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g fill="#7dd3fc" filter="url(#smallGlow)">
+    <circle r="1.5"><animate attributeName="cx" values="80;450;1040;80" dur="12s" repeatCount="indefinite"/><animate attributeName="cy" values="90;70;105;90" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values=".1;.85;.2;.1" dur="7s" repeatCount="indefinite"/></circle>
+    <circle r="1.2"><animate attributeName="cx" values="1110;900;1040;1110" dur="13s" repeatCount="indefinite"/><animate attributeName="cy" values="275;245;295;275" dur="13s" repeatCount="indefinite"/><animate attributeName="opacity" values=".75;.1;.7;.75" dur="8s" repeatCount="indefinite"/></circle>
+    <circle r="1"><animate attributeName="cx" values="900;1110;760;900" dur="12s" repeatCount="indefinite"/><animate attributeName="cy" values="80;110;65;80" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values=".1;.7;.15;.1" dur="7s" repeatCount="indefinite"/></circle>
+    <circle r="1"><animate attributeName="cx" values="150;620;105;150" dur="8.5s" repeatCount="indefinite"/><animate attributeName="cy" values="265;235;280;265" dur="8.5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".65;.12;.6;.65" dur="8s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <rect x="28" y="28" width="1144" height="384" rx="27" fill="none"
+        stroke="#9bdcff" stroke-opacity=".055"/>
+</g>
+
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <text x="600" y="86" text-anchor="middle" font-size="24" font-weight="600" fill="#FFFFFF">Get in Touch</text>
+  <text x="600" y="128" text-anchor="middle" font-size="16" fill="#FFFFFF">Feel free to reach out! You can contact me through the platforms below.</text>
+
+  <!-- Gmail -->
+  <g transform="translate(360 184)">
+    <rect width="128" height="128" rx="18" fill="#080d15" stroke="#0a3d70" stroke-opacity=".48"/>
+    <g transform="translate(34 28) scale(1.5)">
+      <path d="M40 9.095V32.277C40 33.783 38.78 35.003 37.273 35.003H30.908V19.55L20 27.733 9.092 19.55V35.005H2.727A2.727 2.727 0 0 1 0 32.277V9.095C0 5.723 3.848 3.798 6.545 5.822L9.092 7.733 20 15.913 30.908 7.73 33.455 5.822C36.15 3.8 40 5.723 40 9.095Z" fill="#EA4335"/>
+    </g>
+    <text x="64" y="112" text-anchor="middle" font-size="13" font-weight="500" fill="#FFFFFF">Gmail</text>
+  </g>
+
+  <!-- Instagram -->
+  <g transform="translate(536 184)">
+    <rect width="128" height="128" rx="18" fill="#080d15" stroke="#0a3d70" stroke-opacity=".48"/>
+    <g transform="translate(34 24) scale(.1171875)">
+      <linearGradient id="insta" x1="0" y1="512" x2="512" y2="0" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFC107"/><stop offset=".507" stop-color="#F44336"/><stop offset=".99" stop-color="#9C27B0"/>
+      </linearGradient>
+      <rect width="512" height="512" rx="160" fill="url(#insta)"/>
+      <rect x="80" y="80" width="352" height="352" rx="100" fill="none" stroke="#fff" stroke-width="32"/>
+      <circle cx="256" cy="256" r="96" fill="none" stroke="#fff" stroke-width="32"/>
+      <circle cx="370" cy="142" r="24" fill="#FFFFFF"/>
+    </g>
+    <text x="64" y="112" text-anchor="middle" font-size="13" font-weight="500" fill="#FFFFFF">Instagram</text>
+  </g>
+
+  <!-- LinkedIn -->
+  <g transform="translate(712 184)">
+    <rect width="128" height="128" rx="18" fill="#080d15" stroke="#0a3d70" stroke-opacity=".48"/>
+    <g transform="translate(34 24) scale(.46875)">
+      <path fill="#0076b2" d="M116 3H12a8.91 8.91 0 0 0-9 8.8v104.42A8.91 8.91 0 0 0 12 125h104a8.93 8.93 0 0 0 9-8.81V11.77A8.93 8.93 0 0 0 116 3Z"/>
+      <path fill="#FFFFFF" d="M21.06 48.73h18.11V107H21.06Zm9.06-29a10.5 10.5 0 1 1-10.5 10.49 10.5 10.5 0 0 1 10.5-10.49ZM50.53 48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75v32H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53Z"/>
+    </g>
+    <text x="64" y="112" text-anchor="middle" font-size="13" font-weight="500" fill="#FFFFFF">LinkedIn</text>
+  </g>
+</g>
+
+<rect x="13" y="13" width="1174" height="414" rx="33" fill="none"
+      stroke="url(#movingLine)" stroke-width="2.2">
+  <animate attributeName="stroke-opacity" values=".45;.62;.88;.62;.45" dur="7s" repeatCount="indefinite"/>
+</rect>
+</svg>
