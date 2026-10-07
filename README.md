@@ -54,50 +54,10 @@ I'm a developer who is constantly growing, always looking to learn new tools, ex
 
 <br>
 
-## Get in Touch
-
-Feel free to reach out! You can contact me through the platforms below.
-
-<table align="center">
-<tr>
-
-<td align="center" width="75" height="65">
-  <a href="mailto:igorheiser210@gmail.com">
-    <img
-      src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg"
-      width="40"
-      alt="Gmail"
-    />
-  </a>
-</td>
-
-<td align="center" width="75" height="65">
-  <a href="https://www.instagram.com/heiser_igor/" target="_blank">
-    <img
-      src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg"
-      width="40"
-      alt="Instagram"
-    />
-  </a>
-</td>
-
-<td align="center" width="75" height="65">
-  <a href="https://www.linkedin.com/in/igor-negherbon-heiser-a74203440/" target="_blank">
-    <img
-      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
-      width="40"
-      alt="LinkedIn"
-    />
-  </a>
-</td>
-
-</tr>
-</table>
-
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=003366&height=120&section=footer"
+    src="./assets/get-in-touch-card-white-text.svg"
     width="100%"
-    alt=""
+    alt="Get in Touch"
   />
 </p>
