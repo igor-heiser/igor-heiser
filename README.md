@@ -52,14 +52,4 @@ I'm a developer who is constantly growing, always looking to learn new tools, ex
 
 <br>
 
-<p align="center">
-  <img
-    src="./assets/get-in-touch-header.svg"
-    width="100%"
-    alt="Get in Touch"
-  />
-</p>
-
-<p align="center">
-  <a href="mailto:igorheiser210@gmail.com"><img src="./assets/get-in-touch-gmail.svg" width="32%" alt="Gmail" /></a><a href="https://www.instagram.com/heiser_igor/"><img src="./assets/get-in-touch-instagram.svg" width="32%" alt="Instagram" /></a><a href="https://www.linkedin.com/in/igor-negherbon-heiser-a74203440/"><img src="./assets/get-in-touch-linkedin.svg" width="32%" alt="LinkedIn" /></a>
-</p>
+<p align="center"><a href="mailto:igorheiser210@gmail.com"><img src="./assets/get-in-touch-gmail-seamless.svg" width="33%" alt="Gmail" /></a><a href="https://www.instagram.com/heiser_igor/"><img src="./assets/get-in-touch-instagram-seamless.svg" width="33%" alt="Instagram" /></a><a href="https://www.linkedin.com/in/igor-negherbon-heiser-a74203440/"><img src="./assets/get-in-touch-linkedin-seamless.svg" width="33%" alt="LinkedIn" /></a></p>
