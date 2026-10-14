@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="./assets/igor-profile-card-blue-welcome-taller-small-text.svg" width="100%" alt="Welcome to my GitHub profile!" />
 </p>
@@ -8,7 +9,7 @@ I am currently attending high school and also pursuing a technical course in Sys
 
 I'm a developer who is constantly growing, always looking to learn new tools, explore different areas of technology, and build projects that challenge me. I enjoy turning ideas into code and continuously improving my skills.
 
-<br clear="right">
+<br>
 
 <p align="center">
   <img src="./assets/technologies-card-reference-style.svg" width="100%" alt="Technologies I Use" />
@@ -25,7 +26,6 @@ I'm a developer who is constantly growing, always looking to learn new tools, ex
     alt="Igor's GitHub Stats"
   />
 </td>
-
 <td align="center" width="50%">
   <img
     height="170"
@@ -54,8 +54,12 @@ I'm a developer who is constantly growing, always looking to learn new tools, ex
 
 <p align="center">
   <img
-    src="./assets/get-in-touch-card-white-text.svg"
+    src="./assets/get-in-touch-header.svg"
     width="100%"
     alt="Get in Touch"
   />
+</p>
+
+<p align="center">
+  <a href="mailto:igorheiser210@gmail.com"><img src="./assets/get-in-touch-gmail.svg" width="32%" alt="Gmail" /></a><a href="https://www.instagram.com/heiser_igor/"><img src="./assets/get-in-touch-instagram.svg" width="32%" alt="Instagram" /></a><a href="https://www.linkedin.com/in/igor-negherbon-heiser-a74203440/"><img src="./assets/get-in-touch-linkedin.svg" width="32%" alt="LinkedIn" /></a>
 </p>
