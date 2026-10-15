@@ -1,3 +1,4 @@
+
 name: Update Language Statistics
 
 on:
@@ -64,7 +65,7 @@ jobs:
 
             const sorted = Object.entries(totals)
               .sort((a, b) => b[1] - a[1])
-              .slice(0, 5);
+              .slice(0, 8);
 
             const totalBytes = sorted.reduce(
               (sum, [, bytes]) => sum + bytes,
@@ -122,7 +123,7 @@ jobs:
             };
 
             const cardWidth = 1000;
-            const cardHeight = 105;
+            const cardHeight = 130;
 
             const innerX = 25;
             const innerWidth = 950;
@@ -153,16 +154,18 @@ jobs:
               })
               .join("");
 
-            const columnWidth =
-              innerWidth / Math.max(languages.length, 1);
+            const columnWidth = innerWidth / 4;
 
             const labels = languages
               .map((language, index) => {
                 const x =
-                  innerX + index * columnWidth;
+                  innerX + (index % 4) * columnWidth;
+
+                const y =
+                  80 + Math.floor(index / 4) * 28;
 
                 return `
-                  <g transform="translate(${x.toFixed(2)}, 80)">
+                  <g transform="translate(${x.toFixed(2)}, ${y})">
                     <circle
                       cx="5"
                       cy="-4"
