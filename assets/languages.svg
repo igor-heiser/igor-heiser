@@ -46,47 +46,47 @@
       <rect
         x="25.00"
         y="45"
-        width="458.35"
+        width="462.01"
         height="8"
         fill="#b07219"
       />
     
       <rect
-        x="483.35"
+        x="487.01"
         y="45"
-        width="198.99"
+        width="197.51"
         height="8"
         fill="#e34c26"
       />
     
       <rect
-        x="682.34"
+        x="684.52"
         y="45"
-        width="156.79"
+        width="155.63"
         height="8"
         fill="#f1e05a"
       />
     
       <rect
-        x="839.14"
+        x="840.15"
         y="45"
-        width="125.58"
+        width="124.64"
         height="8"
         fill="#663399"
       />
     
       <rect
-        x="964.71"
+        x="964.79"
         y="45"
-        width="7.62"
+        width="7.56"
         height="8"
         fill="#3572A5"
       />
     
       <rect
-        x="972.33"
+        x="972.35"
         y="45"
-        width="2.67"
+        width="2.65"
         height="8"
         fill="#f34b7d"
       />
@@ -109,7 +109,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >Java 48.25%</text>
+        >Java 48.63%</text>
       </g>
     
       <g transform="translate(262.50, 80)">
@@ -127,7 +127,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >HTML 20.95%</text>
+        >HTML 20.79%</text>
       </g>
     
       <g transform="translate(500.00, 80)">
@@ -145,7 +145,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >JavaScript 16.50%</text>
+        >JavaScript 16.38%</text>
       </g>
     
       <g transform="translate(737.50, 80)">
@@ -163,7 +163,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >CSS 13.22%</text>
+        >CSS 13.12%</text>
       </g>
     
       <g transform="translate(25.00, 108)">
