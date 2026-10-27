@@ -50,8 +50,11 @@ jobs:
 
             const totals = {};
 
+            console.log(`Total repositories found: ${repos.length}`);
+
             for (const repo of repos) {
               if (repo.fork) {
+                console.log(`Skipped fork: ${repo.name}`);
                 continue;
               }
 
@@ -61,13 +64,22 @@ jobs:
                   repo: repo.name
                 });
 
+                console.log(
+                  `Repository: ${repo.name}`,
+                  JSON.stringify(response.data)
+                );
+
                 for (const [language, bytes] of Object.entries(response.data)) {
                   totals[language] = (totals[language] || 0) + bytes;
                 }
               } catch (error) {
-                console.log(`Could not read languages from ${repo.name}`);
+                console.log(
+                  `Error reading ${repo.name}: ${error.message}`
+                );
               }
             }
+
+            console.log("Total languages:", JSON.stringify(totals));
 
             const sorted = Object.entries(totals)
               .sort((a, b) => b[1] - a[1])
