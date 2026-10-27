@@ -1,0 +1,81 @@
+
+name: Update GitHub Stats Cache
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-github-stats-cache
+  cancel-in-progress: false
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Update GitHub Stats image version
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          import time
+
+          readme_path = Path("README.md")
+          readme = readme_path.read_text(encoding="utf-8")
+
+          pattern = (
+              r'(https://github-stats-extended\.vercel\.app/api'
+              r'\?[^"\s]*?)(?:&v=\d+)?(?=")'
+          )
+
+          matches = re.findall(pattern, readme)
+
+          if len(matches) != 1:
+              raise SystemExit(
+                  "Expected exactly one GitHub Stats image in README.md"
+              )
+
+          version = int(time.time())
+
+          updated = re.sub(
+              pattern,
+              lambda match: f"{match.group(1)}&v={version}",
+              readme,
+              count=1
+          )
+
+          readme_path.write_text(updated, encoding="utf-8")
+
+          print(f"Updated GitHub Stats image version to {version}")
+          PY
+
+      - name: Commit updated README
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: refresh GitHub stats cache"
+
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
