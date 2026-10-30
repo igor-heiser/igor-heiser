@@ -22,7 +22,7 @@ I'm a developer who is constantly growing, always looking to learn new tools, ex
 <td align="center" width="50%">
   <img
     height="170"
-    src="https://github-stats-extended.vercel.app/api?username=igor-heiser&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=0057B8&text_color=ffffff&icon_color=0057B8&bg_color=0d1117&v=1793315344"
+    src="https://github-stats-extended.vercel.app/api?username=igor-heiser&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=0057B8&text_color=ffffff&icon_color=0057B8&bg_color=0d1117&v=1793336612"
     alt="Igor's GitHub Stats"
   />
 </td>
