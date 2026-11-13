@@ -46,47 +46,47 @@
       <rect
         x="25.00"
         y="45"
-        width="388.77"
+        width="380.84"
         height="8"
         fill="#e34c26"
       />
     
       <rect
-        x="413.77"
+        x="405.84"
         y="45"
-        width="279.71"
+        width="262.67"
         height="8"
         fill="#b07219"
       />
     
       <rect
-        x="693.48"
+        x="668.51"
         y="45"
-        width="157.16"
+        width="189.71"
         height="8"
         fill="#f1e05a"
       />
     
       <rect
-        x="850.64"
+        x="858.22"
         y="45"
-        width="118.54"
+        width="111.32"
         height="8"
         fill="#663399"
       />
     
       <rect
-        x="969.18"
+        x="969.53"
         y="45"
-        width="4.31"
+        width="4.05"
         height="8"
         fill="#3572A5"
       />
     
       <rect
-        x="973.49"
+        x="973.58"
         y="45"
-        width="1.51"
+        width="1.42"
         height="8"
         fill="#f34b7d"
       />
@@ -109,7 +109,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >HTML 40.92%</text>
+        >HTML 40.09%</text>
       </g>
     
       <g transform="translate(262.50, 80)">
@@ -127,7 +127,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >Java 29.44%</text>
+        >Java 27.65%</text>
       </g>
     
       <g transform="translate(500.00, 80)">
@@ -145,7 +145,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >JavaScript 16.54%</text>
+        >JavaScript 19.97%</text>
       </g>
     
       <g transform="translate(737.50, 80)">
@@ -163,7 +163,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >CSS 12.48%</text>
+        >CSS 11.72%</text>
       </g>
     
       <g transform="translate(25.00, 108)">
@@ -181,7 +181,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >Python 0.45%</text>
+        >Python 0.43%</text>
       </g>
     
       <g transform="translate(262.50, 108)">
@@ -199,7 +199,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="11"
           font-weight="600"
-        >C++ 0.16%</text>
+        >C++ 0.15%</text>
       </g>
     
 
